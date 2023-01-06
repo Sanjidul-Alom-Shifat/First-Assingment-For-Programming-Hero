@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+/* banner section */
+.banner-section{
+    background: url('../banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.banner-item{
+    padding-top: 215px;
+    padding-right: 210px;
+    padding-bottom: 166px;
+    text-align: right;
+}
+.banner-heading{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 24px;
+    margin-bottom: 32px;
+}
+.banner-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 20px 24px;
+    border: none;
+}
+/* main body */
+
+/* about section */
+.about-me{
+    margin-top: 131px;
+}
+.about-section{
+    display: flex;
+    text-align: center;
+}
+.about-heading{
+    font-weight: 700;
+    font-size: 40px;
+    color: #151414;
+    margin-bottom: 60px;
+    text-align: center;
+}
+.about-item{
+    margin-left: 220px;
+    text-align: left;
+    margin-top:180px ;
+    
+}
+.my-info{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+}
+.about-description{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+}
+.about-section-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #005FAC;
+    background: #FFFFFF;
+    border-radius: 6px;
+    padding: 12px 15px;
+    border: 2px solid #0279da;
+    margin-top: 17px;
+}
+.my-image{
+    width: 550px;
+    height: 600px;
+    margin-left: 90px;
+}
+
+/* previous section */
+.previous-section{
+    margin-top: 140px;
+    display: flex;
+}
+.image-2{
+    margin-left: 200px;
+    height: 700px;
+}
+.previous-section-body{
+    margin-top: 250px;
+    margin-left: 90px;
+}
+.pre-section-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+}
+.pre-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+    margin-top: 24px;
+    margin-bottom: 16px;
+}
+.pre-ul li{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #444343;
+}
+
+/* my plan */
+.my-plan{
+    margin-top: 130px;
+    text-align: center;
+}
+.plan-heading{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #151414;
+    margin-bottom: 55px;
+}
+
+
+
+
