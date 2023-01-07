@@ -92,7 +92,6 @@
 .previous-section{
     margin-top: 140px;
     display: flex;
-    margin-bottom: 130px;
 }
 .image-2{
     margin-left: 200px;
@@ -107,6 +106,7 @@
     font-size: 40px;
     line-height: 47px;
     color: #151414;
+    margin-left: 41px;
 }
 .pre-description{
     font-weight: 400;
@@ -115,6 +115,7 @@
     color: #444343;
     margin-top: 24px;
     margin-bottom: 16px;
+    margin-left: 41px;
 }
 .pre-ul li{
     display: block;
@@ -123,22 +124,140 @@
     line-height: 26px;
     color: #444343;
 }
+/* icon */
+.cheak-icon{
+    color: aqua;
+    padding-right: 8px;
+}
 
-/* my plan */
+/* my plan section */
 .my-plan{
     text-align: center;
+    margin-top: 130px;
 }
 .plan-heading{
     font-weight: 700;
     font-size: 40px;
     line-height: 47px;
     color: #151414;
-    margin-bottom: 55px;
+    margin-bottom: 65px;
 }
 .plan-table{
-    justify-content: space-around;
+    display: flex;
+    margin-left: 175px;
+}
+.plan-info{
+    margin-left: 100px;
+}
+.plan-image{
+    width: 80px;
+    height: 80px;
+}
+.plan-title{
+    font-weight: 700;
+    font-size: 22px;
+    color: #151414;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+.plan-description{
+    font-weight: 500;
+    font-size: 19px;
+    color: #737272; 
 }
 
+/* gradient image section */
+.gradient-image-part{
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%), url('../images/watch.png');
+    height: 200px;
+    background-position: center;
+    width: 900px;
+    background-size: cover;
+    padding: 40px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 244px;
+    margin-right: 219px;
+}
+.image-heading-part{
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-bottom: 80px;
+}
+.image-title{
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 47px;
+    color: #FFFFFF;
+}
+.image-button{
+    margin-top: 24px;
+    font-weight: 600;
+    font-size: 18px;
+    color: #005FAC;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+}
+
+/* footer section*/
+
+/* Contact section */
+.contact-section{
+    background: #151414;
+    display: flex;
+    padding: 130px 231px;
+}
+.contact-heading{
+    font-weight: 700;
+    font-size: 45px;
+    color: #F8F8F8;
+}
+.contact-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-top: 16px;
+    margin-bottom: 32px;
+}
+.contact-heading-part >a{
+    text-decoration: none;
+}
+.icon-1{
+    margin-left: 15px;
+}
+
+/* subscribe area */
+.subscribe-area{
+    margin-left: 300px;
+}
+.subscribe-heading{
+    font-weight: 600;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-top: 13px;
+}
+.subscribe-email{
+    background: #151414;
+    color: #F3F3F3;
+    font-weight: 400;
+    font-size: 18px;
+    padding: 12px 50px 12px 15px;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.subscribe-button{
+    font-weight: 600;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    background: #005FAC;
+    margin-top: 16px;
+    border: none;
+    border-radius: 6px;
+}
 
 
 
